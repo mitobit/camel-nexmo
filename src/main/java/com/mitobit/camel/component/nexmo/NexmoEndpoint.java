@@ -131,6 +131,8 @@ public class NexmoEndpoint extends DefaultEndpoint {
 	/**
 	 * Option to disable throwing the {@link com.mitobit.camel.component.nexmo.error.NexmoOperationFailedException} in case of failed responses from the remote server.
 	 * This allows you to get all responses regardless of the HTTP status code.
+	 *
+	 * @param throwExceptionOnFailure <code>true</code> if you want throw and exception when failed, <code>false</code> otherwise
 	 */
 	public void setThrowExceptionOnFailure(boolean throwExceptionOnFailure) {
 		this.throwExceptionOnFailure = throwExceptionOnFailure;
