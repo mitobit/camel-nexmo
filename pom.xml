@@ -9,6 +9,7 @@
     <version>1.0.1-SNAPSHOT</version>
 
     <name>Nexmo Camel Component</name>
+    <description>A camel component that permits to send SMS messages with Nexmo client</description>
     <url>http://www.mitobit.com</url>
 
     <licenses>
