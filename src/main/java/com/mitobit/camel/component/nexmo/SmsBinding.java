@@ -7,6 +7,11 @@ import org.apache.camel.Exchange;
 import org.apache.camel.RuntimeCamelException;
 import org.apache.camel.util.ObjectHelper;
 
+/**
+ * Sms Binding
+ *
+ * @author <a href="mailto:michele.blasi@mitobit.com">Michele Blasi</a>
+ */
 public class SmsBinding {
 
 	public Message createSmsMessage(NexmoEndpoint endpoint, Exchange exchange) {
