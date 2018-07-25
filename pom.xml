@@ -39,6 +39,16 @@
         </repository>
     </distributionManagement>
 
+    <developers>
+        <developer>
+            <id>michele.blasi</id>
+            <name>Michele Blasi</name>
+            <email>michele.blasi@mitobit.com</email>
+            <organization>Mitobit Srl</organization>
+            <organizationUrl>http://mitobit.com</organizationUrl>
+        </developer>
+    </developers>
+
     <properties>
         <camel.version>2.16.1</camel.version>
     </properties>
