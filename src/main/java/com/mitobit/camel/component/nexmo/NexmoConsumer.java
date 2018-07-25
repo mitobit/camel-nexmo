@@ -6,6 +6,8 @@ import org.apache.camel.impl.ScheduledPollConsumer;
 
 /**
  * The Nexmo consumer.
+ *
+ * @author <a href="mailto:michele.blasi@mitobit.com">Michele Blasi</a>
  */
 public class NexmoConsumer extends ScheduledPollConsumer {
 

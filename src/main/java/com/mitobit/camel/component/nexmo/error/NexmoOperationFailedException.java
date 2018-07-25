@@ -6,7 +6,7 @@ import org.apache.camel.CamelException;
 /**
  * Nexmo Operation Failed Exception
  *
- * @author <a href="mailto:michele.blasi@mitobit.com">Michele Blasi<a>
+ * @author <a href="mailto:michele.blasi@mitobit.com">Michele Blasi</a>
  */
 public class NexmoOperationFailedException extends CamelException {
 

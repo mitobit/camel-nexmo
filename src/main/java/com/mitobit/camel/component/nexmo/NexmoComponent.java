@@ -8,6 +8,8 @@ import org.apache.camel.spi.UriEndpoint;
 
 /**
  * Represents the component that manages {@link NexmoEndpoint}.
+ *
+ * @author <a href="mailto:michele.blasi@mitobit.com">Michele Blasi</a>
  */
 @UriEndpoint(title = "Nexmo", scheme = "nexmo", consumerClass = NexmoConsumer.class, consumerPrefix = "consumer", syntax = "nexmo")
 public class NexmoComponent extends DefaultComponent {
