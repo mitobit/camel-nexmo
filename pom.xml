@@ -6,7 +6,7 @@
     <groupId>com.mitobit.camel</groupId>
     <artifactId>camel-nexmo</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>Nexmo Camel Component</name>
     <description>A camel component that permits to send SMS messages with Nexmo client</description>
@@ -25,7 +25,7 @@
         <url>https://github.com/mitobit/camel-nexmo</url>
         <connection>scm:git:git@github.com:mitobit/camel-nexmo.git</connection>
         <developerConnection>scm:git:git@github.com:mitobit/camel-nexmo.git</developerConnection>
-        <tag>camel-nexmo-1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
